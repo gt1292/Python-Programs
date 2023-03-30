@@ -1,0 +1,234 @@
+
+
+Marvellous Infosystems: Python- Automation & Machine Learning
+1. What is Python? What are the benefits of using Python?
+Python is a programming language with objects, modules, threads, exceptions
+and automatic memory management. The benefits of pythons are that it is simple
+and easy, portable, extensible, build-in data structure and it is an open source.
+
+2. What is pickling and unpickling?
+Pickle module accepts any Python object and converts it into a string
+representation and dumps it into a file by using dump function, this process is
+called pickling. While the process of retrieving original Python objects from the
+stored string representation is called unpickling.
+
+Python Interview Questions Part 1
+3. How Python is interpreted?
+
+Python language is an interpreted language. Python program runs directly from
+the source code. It converts the source code that is written by the programmer
+into an intermediate language, which is again translated into machine language
+that has to be executed.
+
+4. How memory is managed in Python?
+Python memory is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have an access to this private heap and interpreter takes care of this Python private heap.
+
+● The allocation of Python heap space for Python objects is done by Python memory manager. The core API gives access to some tools for the programmer to code.
+
+● Python also have an inbuilt garbage collector, which recycle all the unused memory and frees the memory and makes it available to the heap space.
+
+5. What are the tools that help to find bugs or perform static analysis?
+PyChecker is a static analysis tool that detects the bugs in Python source code and warns about the style and complexity of the bug. Pylint is another tool that verifies whether the module meets the coding standard.
+
+6. What are Python decorators?
+A Python decorator is a specific change that we make in Python syntax to alter functions easily.
+
+7. What is the difference between list and tuple?
+The difference between list and tuple is that list is mutable while tuple is not. Tuple can be hashed for e.g a key for dictionaries.
+
+8. How are arguments passed by value or by reference?
+Everything in Python is an object and all variables hold references to the objects. The references values are according to the functions; as a result you cannot change the value of the references. However, you can change the objects if it is mutable.
+
+9. What is Dict and List comprehensions are?
+They are syntax constructions to ease the creation of a Dictionary or List based on existing iterable.
+
+10. What are the built-in type does python provides?
+There are mutable and In Page table types of PyQons built in types Mutable built-in types
+List
+Sets
+Dictionaries
+Immutable built-in types
+Strings
+Tuples
+Numbers
+
+
+1. What is namespace in Python?
+In Python, every name introduced has a place where it lives and can be hooked for. This is known as namespace. It is like a box where a variable name is mapped to the object placed. Whenever the variable is searched out, this box will be searched, to get corresponding object.
+
+2. What is lambda in Python?
+It is a single expression anonymous function often used as inline function.
+
+3. Why lambda forms in python does not have statements?
+A lambda form in python does not have statements as it is used to make new function object and then return them at runtime.
+
+4. What is pass in Python?
+Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, where there should be a blank left and nothing has to be written there.
+
+5. In Python what are iterators?
+In Python, iterators are used to iterate a group of elements, containers like list.
+
+6. What is unittest in Python?
+A unit testing framework in Python is known as unittest. It supports sharing of setups, automation testing, shutdown code for tests, aggregation of tests into collections etc.
+
+7. In Python what is slicing?
+A mechanism to select Pagenge of items from sequence types like list, tuple,
+strings etc. is known as slicing.
+
+
+
+
+Python Interview Questions Part 3
+1. What is negative index in Python?
+Python sequences can be index in positive and negative numbers. For positive index, 0 is the first index, 1 is the second index and so forth. For negative index, (-1) is the last index and (-2) is the second last index and so forth.
+
+2. How you can convert a number to a string?
+In order to convert a number into a string, use the inbuilt function str(). If you want a octal or hexadecimal representation, use the inbuilt function oct() or hex().
+
+3. What is the difference between Xrange and range?
+Xrange returns the xrange object while range returns the list, and uses the same memory and no matter what the range size is.
+
+4. What is module and package in Python?
+In Python, module is the way to structure program. Each Python program file is a module, which imports other modules like objects and attributes. The folder of Python program is a package of modules. A package can have modules or subfolders.
+
+5. Mention what are the rules for local and global variables in Python?
+Local variables: If a variable is assigned a new value anywhere within the function's body, it's assumed to be local.
+Global variables: Those variables that are only referenced inside a function are implicitly global.
+
+6. How can you share global variables across modules?
+To share global variables across modules within a single program, create a special module. Import the config module in all modules of your application. The module will be available as a global variable across modules.
+
+7. Explain how can you make a Python Script executable on Unix?
+To make a Python Script executable on Unix, you need to do two things, Script file's mode must be executable and the first line must begin with # (#!/usr/local/bin/python)
+
+8. Explain how to delete a file in Python?
+By using a command os.remove (filename) or os.unlink(filename)
+
+9. Explain how can you generate random numbers in Python?
+To generate random numbers in Python, you need to import command as
+import random
+random.random()
+This returns a random floating point number in the range [0,1)
+
+10. Explain how can you access a module written in Python from C?
+You can access a module written in Python from C by following method,
+Module = =PyImport_ImpPageModule("2<moduleⓇm++ ");
+
+
+
+1. Mention the use of // operator in Python?
+It is a Floor Divisionoperator, which is used for dividing two operands with the result as quotient showing only digits before the decimal point. For instance, 10//5 = 2 and 10.0//5.0 = 2.0.
+
+2. Mention five benefits of using Python?
+Python comprises of a huge standard library for most Internet platforms like Email, HTML, etc.
+
+Python does not require explicit memory management as the interpreter itself allocates the memory to new variables and free them automatically
+
+Provide easy readability due to use of square brackets
+
+Easy-to-learn for beginners
+
+Having the built-in data types saves programming time and effort from declaring variables
+
+3. Mention the use of the split function in Python?
+The use of the split function in Python is that it breaks a string into shorter strings using the defined separator. It gives a list of all words present in the string.
+
+4. What is init?
+_init_ is a method or constructor in Python. This method is automatically called to allocate memory when a new object/ instance of a class is created. All classes have the _init_ method.
+
+5. What are functions in Python ?
+A function is a block of code which is executed only when it is called. To define a Python function, the def keyword is used.
+
+6. Is indentation required in python?
+Indentation is necessary for Python. It specifies a block of code. All code within loops, classes, functions, etc is specified within an indented block. It is usually done using four space characters. If your code is not indented necessarily, it will not execute accurately and will throw errors as well.
+
+
+7. What is type conversion in Python?
+Type conversion refers to the conversion of one data type iinto another.
+int() converts any data type into integer type
+
+float() - converts any data type into float type
+
+
+ord() =converts characters into integer
+
+hex() converts integers to hexadecimal
+
+oct() - converts integer to octal
+
+tuple() - This function is used to convert to a tuple.
+
+set() = This function returns the type after converting to set.
+
+list() - This function is used to convert any data type to a list type.
+
+dict() = this function is used to convert a tuple of order (key,value) into a dictionary
+
+str() - Used to convert integer into string.
+complex(real,imag) = This function is used to convert real number to complex(real,image) number
+
+8. What is self in Python?
+Self is an instance or an object of a class. In Python, this is explicitly included as the first parameter. However, this is not the case in Java where it's optional. It helps to differentiate between the methods and attributes of a class with local variables.
+The self variable in the init method refers to the newly created object while in other methods, it refers to the object whose method was called.
+
+
+9. How will you capitalize the first letter of string?
+In Python, the capitalize() method capitalizes the first letter of a string. If the string already consists of a capital letter at the beginning, then, it returns the original string.
+
+
+10. How to comment multiple lines in python?
+Multi-line comments appear in more than one line. All the lines to be commented are to be prefixed by a #. You can also a very good shortcut method to comment multiple lines. All you need to do is hold the ctrl key and left click in every place
+wherever you want to include a # character and type a # just once. This will comment all the lines where you introduced your cursor.
+
+
+
+
+1. What is the purpose of is, not and in operators?
+Operators are special functions. They take one or more values and produce a corresponding result.
+is: returns true when 2 operands are true (Example: "a" is 'a')
+not: returns the inverse of the boolean value
+in: checks if some element is present in some sequence
+
+2. What does len() do?
+It is used to determine the length of a string, a list, an array, etc.
+
+3. How can files be deleted in Python?
+To delete a file in Python, you need to import the OS Module. After that, you need to use the os.remove() function.
+
+4. How to remove values to a python array?
+Array elements can be removed using pop() or remove() method. The difference between these two functions is that the former returns the deleted value whereas the latter does not.
+
+5. What is the difference between deep and shallow copy?
+Shallow copy is used when a new instance type gets created and it keeps the values that are copied in the new instance. Shallow copy is used to copy the reference pointers just like it copies the values. These references point to the original objects and the changes made in any member of the class will also affect the original copy of it. Shagew Copy allows faster execution of the program and it depends on the size of the data that is used.
+Deep copy is used to store the values that are already copied. Deep copy doesn't copy the reference pointers to the objects. It makes the reference to an object and the new object that is pointed by some other object gets stored. The changes made in the original copy won't affect any other copy that uses the object. Deep copy makes execution of the program slower due to making certain copies for each object that is been called.
+
+6. How is Multithreading achieved in Python?
+1. Python has a multi-threading package but if you want to multi-thread to speed your code up, then it's usually not a good idea to use it.
+
+2. Python has a construct called the Global Interpreter Lock (GIL). The GIL makes sure that only one of your 'threads' can execute at any one time. A thread acquires the GIL, does a little work, then passes the GIL onto the next thread.
+
+3. This happens very quickly so to the human eye it may seem like your threads are executing in parallel, but they are really just taking turns using the same CPU core.
+
+4. All this GIL passing adds overhead to execution. This means that if you want to make your code run faster then using the threading package often isn't a good idea.
+then using
+
+7. Explain Inheritance in Python with an example.
+Inheritance allows One class to gain all the members(say attributes and methods) of another class. Inheritance provides code reusability, makes it easier to create and maintain an application. The class from which we are inheriting is called super-class and the class that is inherited is called a derived / child class. They are different types of inheritance supported by Python:
+1. Single Inheritance
+single super class. where a derived class acquires the members of a single super class
+
+2. Multi-level inheritance - a derived class d1 in inherited from base class base1, and d2 are inherited from base2.
+
+3. Hierarchical inheritance from one base class you can inherit any number of child classes
+
+4. Multiple inheritance - a derived class is inherited from more than one base class.
+
+8. How are classes created in Python?
+Class in Python is created using the class keyword.
+
+9. What is Polymorphism in Python?
+Polymorphism means the ability to take multiple forms. So, for instance, if the parent class has a method named ABC then the child class also can have a method with the same name ABC having its own parameters and variables. Python allows polymorphism.
+
+10. Define encapsulation in Python?
+Encapsulation means binding the code and the data together. A Python class in an example of encapsulation.
+
